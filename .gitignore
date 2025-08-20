@@ -4,4 +4,6 @@ venv/
 
 #files
 *.fits
+prepare_data.sh
+run_all.sh
 
