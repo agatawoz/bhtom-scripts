@@ -19,6 +19,3 @@ def get_filter(file):
 def BHTOM_filter(filter):
     return filters.get(filter)
 
-print("TEST")
-print(get_filter("2024-09-30_06-42-09_PKS0454-234_B_180.00s_1x1_0_0286_out.fits"))
-print(BHTOM_filter(get_filter("2024-09-30_06-42-09_PKS0454-234_B_180.00s_1x1_0_0286_out.fits")))
