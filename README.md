@@ -13,6 +13,7 @@ The core logic is handled by `main.py`. You pass the path to a folder containing
    Each file is processed individually:
    - The script checks whether any astronomical objects are detected in the image [`stars_detection.py`].
    - The photometric filter is extracted from the filename [`filter.py`].
+   - If the object name from the `.fits` file differs from the name used on BHTOM, it is mapped to the correct version [`stars_detection.py`]. 
    - A log entry is created, including a timestamp, object name, filename and detection status [`logs.py`].
 
 3. **Uploading to BHTOM**  
