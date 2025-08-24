@@ -18,4 +18,3 @@ def get_filter(file):
 
 def BHTOM_filter(filter):
     return filters.get(filter)
-
